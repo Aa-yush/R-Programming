@@ -27,5 +27,5 @@ myurl = "https://docs.google.com/spreadsheets/d/1Rpc3BlzK31iJfWICzX1T20xsM_gNaaR
 abc = as.data.frame(gsheet2tbl(myurl))
 abc
 
-
+write.csv(abc,file = "y") # Export the excel file in csv file using write method
 
